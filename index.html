@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- Declare document as HTML5 to enable modern browser standards and features -->
+<html lang="en"> <!-- Define primary language as English for accessibility tools and search engines -->
+<head>
+    <!--
+        Author: Neal Brandon Jr
+        Website: www.nealsdevsite.com
+        Description: SymbolicBot AI v1.4.9
+    -->
+    <meta charset="UTF-8"> <!-- Set character encoding to UTF-8 for consistent handling of text and symbols -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configure viewport to ensure responsive design for all devices -->
+    <title>SymbolicBot v1.4.9 @ 2024 using Wikipedia API service.</title> <!-- Page title displayed on browser tab -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to external CSS file for page styling -->
+</head>
+
+<!-- Main structure of chat application -->
+<body>
+    <!-- Container for entire chat application UI -->
+    <div id="chat-container">
+        <h2>SymbolicBot v1.4.9 @ 2024 using Wikipedia API service.</h2> <!-- Application header with version and purpose -->
+
+        <!-- External link to personal site for credit and reference -->
+        <a href="https://nealsdevsite.com/" class="external-link" target="_blank">
+            https://nealsdevsite.com/
+        </a>
+
+        <!-- Section to dynamically display application version and author -->
+        <p>Version: <span id="derived-text">SymbolicBot v1.4.9</span></p> <!-- Placeholder for version details -->
+        <p>Author: <span id="derived-text">Neal Brandon Jr - v1.4.9</span></p> <!-- Placeholder for author information -->
+
+        <!-- Chat message display area -->
+        <div id="chat-box">
+            <p><strong>SymbolicBot:</strong> How can I help you today? Type "help" for more information.</p> <!-- Initial bot greeting -->
+        </div>
+
+        <!-- User input field and send button for message interaction -->
+        <div id="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off"> <!-- Text input for user messages -->
+            <button id="send-button">Send</button> <!-- Trigger to send user input to bot -->
+        </div>
+    </div>
+
+    <!-- Console area for logging application activities and errors -->
+    <div id="console-box">
+        <p>Console Output:</p> <!-- Header for debugging console -->
+    </div>
+
+    <!-- Embedded readme section for inline documentation -->
+    <div id="readme-container">
+        <iframe src="readme.html" frameborder="0" width="100%" height="200"></iframe> <!-- Load readme content from an external file -->
+    </div>
+    
+    <!-- Footer to display licensing details for application and content -->
+    <div id="license-footer">
+        <p>
+            This application is licensed under the 
+            <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">
+                MIT License
+            </a>.
+            Please provide credit by linking to:
+            <a href="https://nealsdevsite.com" target="_blank" rel="noopener noreferrer">
+                www.nealsdevsite.com
+            </a>.
+        </p>
+        <p>
+            Content retrieved from Wikipedia is licensed under the 
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+                Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)
+            </a>. For more information, see 
+            <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" target="_blank" rel="noopener noreferrer">
+                Wikipedia's license details
+            </a>. Original articles can be found at 
+            <a href="https://en.wikipedia.org" target="_blank" rel="noopener noreferrer">
+                https://en.wikipedia.org
+            </a>.
+        </p>
+    </div>
+
+    <!-- Load JavaScript files asynchronously to prevent blocking page load -->
+    <script defer src="js/utils.js"></script> <!-- General-purpose utility functions -->
+    <script defer src="js/responses.js"></script> <!-- Logic for predefined responses -->
+    <script defer src="js/wikipedia.js"></script> <!-- Methods to interact with Wikipedia API -->
+    <script defer src="js/app.js"></script> <!-- Main application logic to manage user-bot interactions -->
+</body>
+</html>

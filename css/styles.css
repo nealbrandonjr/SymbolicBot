@@ -1,0 +1,186 @@
+/* Import custom Google Font */
+/* Chosen for retro 'pixel-art' style reminiscent of old gaming UIs */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Base styling for entire page, establishing a retro look and color scheme */
+body {
+    background-color: #041692; /* Deep blue background to contrast neon green text */
+    color: #80FF80; /* Neon green text creates retro terminal vibe */
+    font-family: 'Press Start 2P', monospace; /* Reinforce retro gaming aesthetic with pixelated font */
+    margin: 0; /* Remove default margin for consistent layout control */
+    padding: 20px; /* Add padding around main content for better spacing */
+    display: flex; /* Enable flexbox for layout management */
+    flex-direction: column; /* Stack elements vertically in column */
+    align-items: center; /* Center-align elements horizontally */
+    min-height: 100vh; /* Ensure body spans full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scrolling to avoid breaking layout */
+}
+
+/* Main container for chat application */
+#chat-container {
+    width: 100%; /* Allow full-width scaling for responsiveness */
+    max-width: 600px; /* Limit container width for better readability */
+    background-color: #041692; /* Match body background for unified look */
+    padding: 20px; /* Add internal spacing for content */
+    border-radius: 8px; /* Slight rounding for a modern touch */
+    border: 2px solid #80FF80; /* Neon green border reinforces retro theme */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow adds depth */
+    overflow-y: auto; /* Allow scrolling if content exceeds container height */
+    -webkit-overflow-scrolling: touch; /* Ensure smooth scrolling on iOS devices */
+}
+
+/* Scrollable area for chat messages */
+#chat-box {
+    height: 300px; /* Fixed height to maintain consistent layout */
+    overflow-y: scroll; /* Enable vertical scrolling for long conversations */
+    border: 2px solid #80FF80; /* Match border style to maintain theme */
+    padding: 10px; /* Add padding for readability */
+    margin-bottom: 10px; /* Space below for separation from other elements */
+    border-radius: 5px; /* Slightly rounded corners for polished look */
+    background-color: #041692; /* Match container background */
+    color: #80FF80; /* Consistent text color with retro theme */
+    white-space: normal; /* Allow text wrapping for long messages */
+    text-decoration: none; /* Ensure clean look for text by default */
+}
+
+/* Links within chat messages */
+#chat-box a {
+    text-decoration: underline; /* Underline links for visibility */
+    color: #80FF80; /* Match text color to maintain theme */
+}
+
+#chat-box a:hover {
+    color: #FFD700; /* Gold color on hover for interactivity feedback */
+}
+
+/* User input field and related container */
+#input-container {
+    display: flex; /* Arrange input and button side by side */
+    align-items: center; /* Align items vertically in center */
+    position: relative; /* Relative positioning for child elements */
+    width: 100%; /* Full width for responsiveness */
+}
+
+/* Text input field for user queries */
+#user-input {
+    width: 100%; /* Expand to occupy full width */
+    padding: 10px; /* Internal padding for better UX */
+    border-radius: 5px; /* Rounded corners for consistency with buttons */
+    border: 2px solid #80FF80; /* Neon green border for retro feel */
+    background-color: #041692; /* Match background to main container */
+    color: #80FF80; /* Neon green text */
+    caret-color: #80FF80; /* Highlight caret color for visibility */
+    outline: none; /* Remove default outline for clean look */
+    font-family: 'Press Start 2P', monospace; /* Consistent retro font */
+}
+
+/* Style for buttons, including send button */
+button {
+    padding: 10px 20px; /* Add padding for click area and aesthetics */
+    background-color: #041692; /* Match main background color */
+    color: #80FF80; /* Text matches retro green theme */
+    border: 2px solid #80FF80; /* Neon green border */
+    border-radius: 5px; /* Rounded corners for modern design */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #002166; /* Darker shade to show hover feedback */
+    border-color: #80FF80; /* Keep border consistent with theme */
+}
+
+/* Debug console box styling */
+#console-box {
+    width: 100%; /* Full-width responsiveness */
+    max-width: 600px; /* Limit width for readability */
+    background-color: #041692; /* Match main background */
+    color: #80FF80; /* Neon green text */
+    padding: 10px; /* Internal spacing for readability */
+    margin-top: 20px; /* Space above for visual separation */
+    border-radius: 5px; /* Rounded corners for cohesive styling */
+    border: 2px solid #80FF80; /* Theme-consistent border */
+    height: 150px; /* Set height to contain debug logs */
+    overflow-y: auto; /* Enable scrolling for long logs */
+    white-space: normal; /* Ensure text wraps for readability */
+}
+
+/* Style for external links */
+.external-link {
+    color: #FFFFFF; /* White text for high contrast */
+    text-decoration: none; /* Clean default appearance */
+    font-size: 14px; /* Readable font size */
+    margin-top: 10px; /* Space above for separation */
+    display: block; /* Ensure each link occupies its own line */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transitions */
+}
+
+/* External link hover effect */
+.external-link:hover {
+    color: #FFD700; /* Gold color for interactivity */
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
+
+/* Readme container styling matches console box */
+#readme-container {
+    width: 100%; /* Full width for responsiveness */
+    max-width: 600px; /* Limit width for consistency */
+    background-color: #041692; /* Match primary background */
+    color: #80FF80; /* Retro green text */
+    padding: 10px; /* Internal padding for spacing */
+    margin-top: 20px; /* Space above for separation */
+    border-radius: 5px; /* Rounded corners for visual consistency */
+    border: 2px solid #80FF80; /* Consistent border styling */
+    height: 200px; /* Fixed height for readme content */
+    overflow-y: auto; /* Enable scrolling for overflow content */
+    white-space: normal; /* Allow text wrapping */
+    font-family: 'Press Start 2P', monospace; /* Match retro theme font */
+}
+
+/* Readme section heading */
+#readme-section h3 {
+    font-family: 'Press Start 2P', monospace; /* Maintain retro font */
+    color: #80FF80; /* Retro green heading */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Readme section paragraph */
+#readme-section p {
+    font-family: 'Press Start 2P', monospace; /* Match theme font */
+    line-height: 1.5; /* Improve readability with spacing between lines */
+    color: #80FF80; /* Match text color to theme */
+    margin-bottom: 1em;
+}
+
+/* Footer for licensing and acknowledgments */
+#license-footer {
+    margin-top: 20px; /* Space above for separation */
+    text-align: center; /* Center content for balanced layout */
+    color: #80FF80; /* Theme-consistent text color */
+    font-family: 'Press Start 2P', monospace; /* Match retro font */
+    font-size: 12px; /* Smaller text for secondary content */
+    line-height: 1.5; /* Improve readability */
+    word-wrap: break-word; /* Ensure text wraps nicely on small screens */
+    padding: 10px; /* Internal spacing for visual balance */
+}
+
+/* Footer links */
+#license-footer a {
+    color: #80FF80; /* Match theme color */
+    text-decoration: underline; /* Underline links for visibility */
+}
+
+/* Footer link hover effect */
+#license-footer a:hover {
+    text-decoration: none; /* Remove underline to signal hover state */
+}
+
+/* Responsive design for small screens */
+@media (max-width: 480px) {
+    #chat-container,
+    #console-box,
+    #readme-section {
+        width: 90%; /* Adjust width for smaller devices */
+    }
+}

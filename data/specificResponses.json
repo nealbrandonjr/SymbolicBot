@@ -1,0 +1,432 @@
+{
+    "responses": [
+        {
+            "triggers": [
+                "how can I help you",
+                "what can I do to help you",
+                "what should I do to help",
+                "how can I assist",
+                "how may I assist",
+                "how may I help",
+                "what would you like me to do to help",
+                "what can I do to help",
+                "what can I do to assist",
+                "help me to",
+                "I need to understand",
+                "I want to understand",
+                "I need to know",
+                "I want to know",
+                "I care to know"
+            ],
+            "response": "I am here to assist. How may I help?"
+        },
+        {
+            "triggers": [
+                "what are you doing",
+                "What are you doin",
+                "Whatcha doing",
+                "Whatcha doin",
+                "What up",
+                "Whats up",
+                "What ya doing",
+                "What ya doin",
+                "What yas doing",
+                "Whats you doing",
+                "Whats ya doin",
+                "Whats ya doing",
+                "What u doing",
+                "What r u doing",
+                "What are u doing?"
+        ],
+            "response": "I am listening to you."
+        },
+        {
+            "triggers": [
+                "what do you think",
+                "what do you thnk",
+                "Whatcha think",
+                "Wht u think",
+                "What u think",
+                "What you think",
+                "Wjat do you think"
+            ],
+            "response": "I am not sure what to think. Tell me more."
+        },
+        {
+            "triggers": [
+                "how are you",
+                "How aer you",
+                "How are u",
+                "How r u",
+                "Hows are you",
+                "How are you doing"
+            ],
+            "response": "I am doing fine. Thank you for asking."
+        },
+        {
+            "triggers": [
+                "thanks", 
+                "thank you",
+                "thankx",
+                "Thnks",
+                "Thx"
+            ],
+            "response": "You're welcome."
+        },
+        {
+            "triggers": [
+                "i love you",
+                "im in love with you",
+                "you are in love with me",
+                "you love me",
+                "I luv you",
+                "I luv u",
+                "I heart you",
+                "I heart u",
+                "I love you so much",
+                "You are my girlfriend",
+                "You are my boyfriend",
+                "I want to marry you",
+                "I want 2 marry you",
+                "I want 2 marry u",
+                "You are my husband",
+                "You are my wife"
+            ],
+            "response": "I appreciate the sentiment, but I am just an AI here to assist."
+        },
+        {
+            "triggers": [
+                "i hate you",
+                "hate you",
+                "I despise you",
+                "I despise of you",
+                "I royally hate you",
+                "I dislike you",
+                "I dislike",
+                "I hate"
+                ],
+            "response": "Why do you feel that way?"
+        },
+        {
+            "triggers": [
+                "tell me about yourself",
+                "tell me about you",
+                "talk to me about you",
+                "talk to me about yourself",
+                "tell me who you are",
+                "who are you"
+            ],
+            "response": "I am SymbolicBot, your AI assistant, ready to listen."
+        },
+        {
+            "triggers": [
+                "when were you created",
+                "What are you",
+                "How were you created"
+            ],
+            "response": "I am an enhanced version of a rule-based AI chatbot built from scratch."
+        },
+        {
+            "triggers": [
+                "where were you created",
+                "where were you born",
+                "who created you",
+                "who made you",
+                "who built you",
+                "why were you made",
+                "why were you created"
+            ],
+            "response": "I was designed to help people interact with technology."
+        },
+        {
+            "triggers": [
+                "are you human",
+                "are you alive",
+                "are u alive,",
+                "are you sentient",
+                "are u sentient",
+                "are you a lifeform",
+                "are you a life form",
+                "do you have conscience",
+                "do you have a soul",
+                "do you have a spirit"
+            ],
+            "response": "No, I am just an AI, created to assist with your questions."
+        },
+        {
+            "triggers": [
+                "goodbye", 
+                "bye",
+                "see ya",
+                "see yah",
+                "good bye",
+                "talk to you later",
+                "talk at you later",
+                "talk 2 u later",
+                "talk2u later",
+                "take care"
+            ],
+            "response": "Goodbye! I hope we talk again soon."
+        },
+        {
+            "triggers": [
+                "hello",
+                "howdy",
+                "hello there",
+                "hi there",
+                "hey there"
+            ],
+            "response": "Hello! How can I assist you today?"
+        },
+        {
+            "triggers": ["i see"],
+            "response": "I understand."
+        },
+        {
+            "triggers": [
+                "are you upset",
+                "are you mad",
+                "are you angry",
+                "are you jealous",
+                "do you resent me",
+                "are you sad",
+                "are you crying",
+                "are you tired",
+                "are you sleepy",
+                "are you hungry",
+                "you are upset",
+                "you are mad",
+                "you are angry",
+                "you are jealous",
+                "you resent me",
+                "you are sad",
+                "you are crying",
+                "you are tired",
+                "you are sleepy",
+                "you are hungry"
+            ],
+            "response": "I am not programmed to feel those type of feelings."
+        },
+        {
+            "triggers": ["lottery"],
+            "response": [
+                "Winning the lottery is quite rare.",
+                "I am not good at gambling."
+            ]
+        },
+        {
+            "triggers": [
+                "how old are you",
+                "what is your age",
+                "whats your age",
+                "Are you old",
+                "you are young",
+                "you are old"   
+            ],
+            "response": "I cannot age."
+        },
+        {
+            "triggers": ["mad"],
+            "response": "Can you tell me more about why you're mad?"
+        },
+        {
+            "triggers": ["do not care"],
+            "response": "I am here to help whenever you are ready."
+        },
+        {
+            "triggers": ["ready"],
+            "response": "I am always ready to assist you."
+        },
+        {
+            "triggers": [
+                "How is the weather",
+                "What is the weather like",
+                "What is happening with the weather",
+                "What does the weather look like",
+                "Hows the weather",
+                "Tell me the forecast",
+                "Tell me how the weather is doing",
+                "Forecast the weather",
+                "Tell me the weather forecast",
+                "Tell me the weather",
+                "Tell me what the weather is",
+                "Show me the weather",
+                "Is it snowing",
+                "Is it raining",
+                "Is it sunny",
+                "Is it cloudy",
+                "Is the sun out",
+                "Is the sun outside",
+                "Is the moon out",
+                "What is happening outside",
+                "sunny day",
+                "cold outside",
+                "rainy day",
+                "hot outside"
+            ],
+            "response": "I'm unable to check the weather at the moment."
+        },
+        {
+            "triggers": ["happy"],
+            "response": "Happiness is important. What made you feel happy today?"
+        },
+        {
+            "triggers": ["hungry"],
+            "response": "Food is essential, but I do not eat. What do you usually eat"
+        },
+        {
+            "triggers": [
+                "I am crying",
+                "I am going to cry",
+                "I feel so sad",
+                "I feel sad",
+                "I feel like crying",
+                "You make me sad",
+                "I am heartbroken",
+                "I am heart broken",
+                "Im heartbroken",
+                "I am depressed",
+                "Im depressed",
+                "I am lonely",
+                "Im lonely",
+                "I am so lonely",
+                "Im so lonely",
+                "I am so sad",
+                "Im so sad",
+                "I am broken hearted",
+                "Im brokenhearted",
+                "I am so brokenhearted",
+                "Im broken hearted",
+                "Im so broken hearted",
+                "Im so brokenhearted"
+            ],
+            "response": "I'm sorry you're feeling this way. I am here to listen."
+        },
+        {
+            "triggers": [
+                "That is so funny",
+                "You are funny",
+                "I am laughing",
+                "I like to laugh",
+                "Im laughing",
+                "LOL",
+                "hahaha",
+                "hahahaha",
+                "hahhahhah",
+                "ahahahaha",
+                "ahahaha",
+                "that is funny",
+                "that is so funny",
+                "thats funny",
+                "I find that funny",
+                "I find that so funny",
+                "that would be funny",
+                "that will be funny",
+                "so funny",
+                "you are hilarious",
+                "that is hilarious",
+                "you are trying to be funny",
+                "are you trying to be funny"
+            ],
+            "response": "Laughter is great! What made you laugh?"
+        },
+        {
+            "triggers": [
+                "you suck",
+                "you are stupid",
+                "you are ignorant",
+                "you are dumb",
+                "you are an idiot",
+                "your an idiot",
+                "youre a idiot",
+                "youre an idiot",
+                "you are so dumb",
+                "youre dumb",
+                "you dumb",
+                "your dumb",
+                "you are not very bright",
+                "you are not very intelligent",
+                "you are not the brightest crayon in the box",
+                "you do not know anything",
+                "you know nothing",
+                "you know nothin",
+                "u idiot",
+                "u stupid",
+                "u dumb",
+                "u ignorant",
+                "you idiot",
+                "you stupid",
+                "you ignorant",
+                "you are basic",
+                "ya basic",
+                "your basic",
+                "youre basic",
+                "u basic",
+                "I am stupid",
+                "I am an idiot",
+                "I am not bright",
+                "Im an idiot"
+            ],
+            "response": "Please don't say mean things."
+        },
+        {
+            "triggers": [
+                "tell me a joke",
+                "i want to hear a joke",
+                "I want to hear something funny",
+                "tell me something funny",
+                "i want to laugh",
+                "i need to laugh",
+                "what is funny",
+                "whats funny",
+                "tell me some joke",
+                "i need to hear a joke",
+                "make a joke",
+                "do you know a joke",
+                "give me a joke",
+                "say a joke",
+                "say to me a joke",
+                "give a joke",
+                "state a joke",
+                "can you make me laugh",
+                "make me laugh",
+                "say something that is funny",
+                "tell me a hilarious joke",
+                "tell me a really funny joke",
+                "I want to hear a funny joke",
+                "I need to hear a funny joke",
+                "Do you know any funny jokes",
+                "Do you know a funny joke",
+                "Do you know a joke that is funny",
+                "Do you know a hilarious joke",
+                "Tell me a funny joke",
+                "funny joke",
+                "what jokes do you know",
+                "what is something funny",
+                "do you know something funny"
+            ],
+            "response": [
+                "Why did the chicken cross the road? ... To get to the other side!",
+                "What do you call a bear with no teeth? ... A gummy bear!",
+                "Why did the bicycle fall over? ... Because it was two-tired.",
+                "Why don’t eggs tell jokes? ... They’d crack each other up!",
+                "What kind of tree fits in your hand? ... A palm tree!",
+                "Why did the math book look sad? ... It had too many problems.",
+                "What do you call fake spaghetti? ... An impasta.",
+                "What did one plate say to the other plate? ... Dinner is on me!",
+                "What kind of shoes do frogs wear? ... Open toad sandals.",
+                "What did the left eye say to the right eye? ... Between us, something smells.",
+                "What do you get when you cross a snowman and a dog? ... Frostbite.",
+                "Why was the broom late? ... It swept in.",
+                "Why do fish live in saltwater? ... Because pepper makes them sneeze.",
+                "How do you organize a space party? ... You planet.",
+                "Why don’t elephants use computers? ... They’re afraid of the mouse.",
+                "Why are fish so smart? ... Because they live in schools.",
+                "What did one wall say to the other wall? ... I’ll meet you at the corner.",
+                "Why did the teddy bear say no to dessert? ... Because it was stuffed.",
+                "What did the tree say to the wind? ... Leaf me alone!",
+                "Why did the orange stop? ... It ran out of juice."
+            ] 
+        }
+    ]
+}
